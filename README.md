@@ -5,9 +5,12 @@ bypass JEP290 RaspHook code，Hook InvokeRemoteMethod 函数，替换成URLDNS g
 
 **2、运行RmiServer**
 
-**3、运行RmiClient前，VM options参数填写:-javaagent:C:\Users\xxx\RemoteObjectInvocationHandler\target\rasp-1.0-SNAPSHOT.jar**
+**3、运行RmiClient前，VM options参数填写:-javaagent:C:\Users\xxx\InvokeRemoteMethod\target\rasp-1.0-SNAPSHOT.jar**
 
 **4、最终会hook住RemoteObjectInvocationHandler函数，修改第三个参数为URLDNS gadget**
+
+**bypass jep920攻击rmi文章已首发在安全客：**
+
 
 参考链接：
 
