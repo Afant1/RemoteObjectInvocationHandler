@@ -1,0 +1,16 @@
+# RemoteObjectInvocationHandler
+bypass JEP290 RaspHook code，Hook InvokeRemoteMethod 函数，替换成URLDNS gadget
+## Usage
+**1、mvn package 打好jar包**
+
+**2、运行RmiServer**
+
+**3、运行RmiClient前，VM options参数填写:-javaagent:C:\Users\xxx\RemoteObjectInvocationHandler\target\rasp-1.0-SNAPSHOT.jar**
+
+**4、最终会hook住afanti函数**
+
+参考链接：
+
+https://mogwailabs.de/blog/2019/03/attacking-java-rmi-services-after-jep-290/
+
+https://github.com/linxin26/javarespdemo/
