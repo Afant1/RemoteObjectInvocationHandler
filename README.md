@@ -7,7 +7,7 @@ bypass JEP290 RaspHook code，Hook InvokeRemoteMethod 函数，替换成URLDNS g
 
 **3、运行RmiClient前，VM options参数填写:-javaagent:C:\Users\xxx\RemoteObjectInvocationHandler\target\rasp-1.0-SNAPSHOT.jar**
 
-**4、最终会hook住afanti函数**
+**4、最终会hook住RemoteObjectInvocationHandler函数，修改第三个参数为URLDNS gadget**
 
 参考链接：
 
