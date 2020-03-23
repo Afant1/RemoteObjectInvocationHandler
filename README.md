@@ -10,7 +10,7 @@ bypass JEP290 RaspHook code，Hook InvokeRemoteMethod 函数，替换成URLDNS g
 
 **4、最终会hook住RemoteObjectInvocationHandler函数，修改第三个参数为URLDNS gadget**
 
-**bypass jep920攻击rmi文章已首发在安全客：https://www.anquanke.com/post/id/200860**
+**bypass jep290攻击rmi文章已首发在安全客：https://www.anquanke.com/post/id/200860**
 
 
 参考链接：
