@@ -18,7 +18,3 @@ bypass JEP290 RaspHook code，Hook InvokeRemoteMethod 函数，替换成URLDNS g
 https://mogwailabs.de/blog/2019/03/attacking-java-rmi-services-after-jep-290/
 
 https://github.com/linxin26/javarespdemo/
-
----------------------------------------------------
-
-JavaSearchTools是另一个小工具，提交到一个仓库了，具体用法：https://github.com/Afant1/JavaSearchTools
